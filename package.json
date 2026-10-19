@@ -1,0 +1,15 @@
+{
+  "name": "tokokita",
+  "version": "1.0.0",
+  "description": "Aplikasi toko online",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "lint": "npm run lint --prefix frontend"
+  },
+  "license": "MIT"
+}
